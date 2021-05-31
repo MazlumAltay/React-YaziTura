@@ -48,9 +48,9 @@ class CoinFlipper extends Component {
           Toplam
           <strong> {this.state.total.totalSide} </strong>
           atıştan
-          <strong> {this.state.total.turaSide} </strong>ü tura
+          <strong> {this.state.total.turaSide} </strong> tura
           <strong> {this.state.total.yaziSide} </strong>
-          si yazı geldi.
+           yazı geldi.
         </p>
       </div>
     );
