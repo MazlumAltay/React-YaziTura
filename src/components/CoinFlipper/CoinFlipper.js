@@ -10,11 +10,7 @@ class CoinFlipper extends Component {
     this.state = {
       side: "tura",
       flipping: false,
-      total : {
-        totalSide : 0,
-        turaSide : 0,
-        yaziSide : 0
-      }
+      total : { totalSide : 0, turaSide : 0, yaziSide : 0}
     };
   }
   handleClick = () => {
